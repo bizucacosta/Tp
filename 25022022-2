@@ -1,0 +1,16 @@
+programa {
+	funcao inicio()
+	{
+	    inteiro Mnumero,Mindice,Msoma,Mmedia
+	   para (Mindice=1;Mindice <=50;Mindice++) 
+	   {
+	       escreva("digite um numero:")
+	       leia(mnumero[mindice])
+	       msoma=Msoma+Mnumero
+	       }
+	       Mmedia=Msoma/50
+	       escreva("a soma dos 50 numeros é:,Msoma")
+	       escreva("\na media dos 50 numeros é:",Mmedia)
+		
+	}
+}
