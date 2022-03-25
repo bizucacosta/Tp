@@ -1,0 +1,38 @@
+programa {
+	funcao inicio() {
+	    real Mmatematica[3][5],Mportugues[3][5],Mhistoria[3][5],Mingles[3][5],Mfisica[3][5]
+	    
+	    cadeia Mnome[3][5]
+	    
+	    inteiro Mindice,Mturma
+	    
+	    Mturma = 0
+	    Mindice = 0
+	    
+	    para (Mturma = 0,Mturma <= 2;Mturma + +) 
+	    {
+	     para (Mindice = 0, Mindice <5; Mindice + +)
+	     {
+	         escreva("Digite um nome")
+	         leia (Mnome[Mturma][Mindice])
+	         
+	         escreva("Digitea nota de matematica:")
+	         leia(Mmatematica[Mturma][Mindice])
+	         
+	         escreva ("Digite a nota de porrtugues:")
+	         leia (Mportugues [\mportugues][Mindice])
+	          
+	         escreva ("Digite a nota de historia:")
+	         leia (Mhistoria[Mturma][Mindice])
+	         
+	         escreva ("Digita a nota de ingles:")
+	         leia (Mingles[Mturma][Mindice])
+	         
+	         escreva ("Digite a nota de fisica:")
+	         leia (Mfisica[Mturma][Mindice])
+	
+	     }
+	    }
+		                                                                        
+	}
+}
