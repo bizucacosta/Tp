@@ -33,6 +33,12 @@ programa {
 	
 	     }
 	    }
-		                                                                        
+	 para (Mturma = 0;Mturma <= 1; Mturma ++)
+	 {
+	 escreva ("\nAlunos da turma: ", Mturma)
+	
+	para (Mindice =0; <=1; Mindice ++)
+	{ escreva ("\nAluno: ", Mnome[Mturma][Mindice])
 	}
+
 }
